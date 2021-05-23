@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="utf-8" />
+		<title>XAMPP</title>
+	</head>
+	<header class="titulo">
+	XAMPP: sistema de gestion de bases de datos MySQL
+	<img class="imagen_logo" src="imagenes/logo.png" alt="icono"/> 
+	</header>
+	<nav class="nav">
+	<a href="pagina.html">Inicio</a>
+	<a href="msxampp.html">Mas Sobre XAMPP</a>
+	<a href="mssql.html">Mas Sobre MYSQL</a>
+	</nav>	
+	<body class="body">
+<section>
+<h class="hparrafos">Guia para crear una Base de Datos en XAMPP</h>
+<p class="texto">Para crear una base de datos, primero debemos iniciar el programa, procederemos a inciar el modulo de apache y mysql</p>
+<img src="imagenes/ins1.png" alt="Foto"/>
+<p class="texto">
+Luego de iniciarlo procederemos a darle click en admin sobre el modulo mysql
+donde nos abrira nuestro navegador preferido</p>
+<img src="imagenes/ins2.png" alt="Foto"/>
+<p class="texto">Con la pagina ya abierta, existen 2 formas de crear bases de datos, la primera nos dirigimos en la lista de la izquierda a nueva o vamos a donde dice bases de datos</p>
+<img class="img" src="imagenes/ins3.png" alt="Foto"/>
+<p class="texto">Luego donde dice Nombre de la base de datos le colocamos uno y listo, le damos a crear y ya tendremos nuestra base de datos</p>
+<img class="img" src="imagenes/ins4.png" alt="Foto"/>
+<p class="texto">Otra forma de crear una base de datos es mediante codigo, para eso nos dirijimos a la pestaña de SQL</p>
+<img class="img" src="imagenes/ins5.png" alt="Foto"/>
+<p class="texto">Luego de eso colocaremos el codigo para crear la base de datos el cual seria: CREATE DATABASE "Nombre de tu BD".
+Y ya estaria lista la base de datos para su uso</p>
+<img class="img" src="imagenes/ins6.png" alt="Foto"/>
+</section>
+<section>
+<h class="hparrafos">Guia para agregarle tablas a tu Base de Datos en XAMPP</h>
+<p class="texto">Para agregar tablas a la BD, es tan sencillo como dar click en la BD, en este caso tiendadebelleza para acto seguido irnos a la pestaña SQL, donde dejaremos caer el codigo mostrado en la imagen</p>
+<img class="img" src="imagenes/ins7.png" alt="Foto"/>
+<p class="texto">Aqui luego de darle continuar podemos ver ya nuestras 3 tablas creadas</p>
+<img class="img" src="imagenes/ins8.png" alt="Foto"/>
+<p class="texto">Podemos ver en este codigo que en la tabla pedidos creamos unas relaciones, con este pedazo de codigo: FOREIGN KEY ("Campo de la tabla") REFERENCES "Aqui ponemos la tabla con la que queremos relacionarnos"("Su campo"), la tabla pedidos se relaciona con la tabla clientes y productos a traves de id_cliente y id_producto</p>
+<p class="texto">Entonces en resumen para crear una tabla debemos utilizar el codigo CREATE TABLE "Nombre"() la cual la podemos crear vacia o agregarle campos</p>
+<img src="imagenes/ins9.png" alt="Foto"/>
+</section>
+<section class="img">
+<h class="hparrafos">Guia para respaldar y restablecer una base de datos</h>
+<p class="texto">Para salvar nuestra BD iniciaremos el programa luego le daremos click a nuestra BD(tiendadebelleza) y luego iremos a la pestaña exportar</p>
+<img class="img" src="imagenes/ins10.png" alt="Foto"/>
+<p class="texto">Luego sin tocar nada le daremos al boton de continuar y se nos descargara un archivo sql el cual sera nuestra Base de datos</p>
+<img class="img" src="imagenes/ins11.png" alt="Foto"/>
+<h>Ahora si en un supuesto caso se nos eliminace la base de datos, teniendo este respaldo debemos de..</h>
+<p class="texto">Crear una Base de datos vacia y luego de eso seleccionarla para dirigirnos a la pestaña Exportar</p>
+<img class="img" src="imagenes/ins12.png" alt="Foto"/>
+<p class="texto">Luego de eso vamos a buscar el archivo en nuestro ordenador</p>
+<img class="img" src="imagenes/ins13.png" alt="Foto"/>
+<p class="texto">Ya una vez seleccionado le daremos a continuar y listo</p>
+<img class="img" src="imagenes/ins14.png" alt="Foto"/>
+<p class="texto">Ya tendremos la base de datos de nuevo como si nunca la hubiesemos perdido, en este caso en especifico le puse un nombre de prueba pero puedes ponerle el nombre que quieras(Este proceso curiosamente debido al programa se utiliza para cambiarle el nombre a una base de datos)</p>
+<img class="img" src="imagenes/ins15.png" alt="Foto"/>
+</section>
+<footer class="footer">
+  <p>Contacto Franco Lautaro Mellia</p> 
+  <p>Tel 1152352502 - francomellia@gmail.com</p>
+  <p>Cordoba - Argentina</p>
+</footer>
+	</body>
+</html>

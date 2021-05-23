@@ -1,0 +1,84 @@
+.imagen_logo{
+	margin:0;
+	display:inline-block;
+	height:50px;
+	width: 50px;
+ 	border-radius:23px;
+}
+.texto{
+	color: white;
+	background-position: 0 0;
+	font: 150% Cambria;
+	text-align: left;
+	font-size: 12pt;
+}
+.body{
+	background-image: url("fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width:  100%;
+}
+.hparrafos{
+	color: white;
+	background-color:#4b0082;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font: 150% Arial Narrow Bold;
+	padding-top: 1px;
+ 	padding-right: 45px;
+	padding-bottom: 1px;
+ 	padding-left: 45px;
+	text-align: left;
+	font-size: 15pt;	
+}
+.titulo{
+	color: white;
+	background-color:#ffa500;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font: 150% Arial Narrow Bold;
+	padding-top: 15px;
+ 	padding-right: 45px;
+	padding-bottom: 10px;
+ 	padding-left: 45px;
+	text-align: left;
+	font-size: 18pt;	
+}
+nav{
+	background-color: #f4a460;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font: 150% Arial Narrow Bold;
+	padding-top: 10px;
+ 	padding-right: 20px;
+	padding-bottom: 10px;
+ 	padding-left: 20px;
+	text-align: left;
+	font-size: 20pt;
+}
+nav:hover{
+	background-color: #7b68ee;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font: 150% Arial Narrow Bold;
+	padding-top: 10px;
+ 	padding-right: 20px;
+	padding-bottom: 10px;
+ 	padding-left: 20px;
+	text-align: left;
+	font-size: 20pt;
+}
+.img{
+	width: 1700px;
+}
+.footer{
+	background-color: #f4a460;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font: 150% Arial Narrow Bold;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 12pt;}
